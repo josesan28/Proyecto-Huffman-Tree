@@ -1,3 +1,11 @@
+/**
+ *  @author José Manuel Sanchez Hernández - 24092
+ *  @version 1.0
+ *  Descripción: Clase principal que ejecuta el programa de compresión y descompresión de archivos de texto.
+ *  Fecha de creación: 01/04/2025
+ *  Fecha de última modificación: 01/05/2025
+ */
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -50,6 +58,11 @@ public class Main {
         
     }
 
+    /**
+     * Método para leer el contenido de un archivo y devolverlo como una cadena.
+     * @param filePath Ruta del archivo a leer.
+     * @return Contenido del archivo como una cadena.
+     */
      private static String readFromFile(String filePath) {
         StringBuilder content = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {

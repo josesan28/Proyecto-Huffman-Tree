@@ -3,7 +3,7 @@
  *  @version 1.0
  *  Descripción: Clase que representa un árbol de Huffman y proporciona métodos para construir el árbol y generar códigos de Huffman.
  *  Fecha de creación: 29/04/2025
- *  Fecha de última modificación: 30/04/2025
+ *  Fecha de última modificación: 01/05/2025
  */
 
 import java.util.*;

@@ -72,16 +72,4 @@ public class HuffmanTree {
         return root;
     }
     
-    /**
-     * Método que imprime el árbol de Huffman y los códigos generados.
-     */
-    public void printTree() {
-        System.out.println("Tabla de códigos Huffman:");
-        for (Map.Entry<Character, String> entry : encodingMap.entrySet()) {
-            String charDisplay = entry.getKey() == ' ' ? "[ESPACIO]" : 
-                                 entry.getKey() == '\n' ? "[SALTO]" : 
-                                 String.valueOf(entry.getKey());
-            System.out.println("'" + charDisplay + "' -> " + entry.getValue());
-        }
-    }
 }
